@@ -27,13 +27,6 @@ E-Government (%)
 
 Z-score Standardized Indicators
 
-Example rows from the dataset:
-
-City        Year   Household Internet Access   Broadband Subscriptions   4G Coverage
-Mumbai      2019   79.45%                      48.00%                    ...
-Delhi       2019   88.62%                      54.70%                    ...
-Bengaluru   2019   79.10%                      47.53%                    ...
-
 🧠 Data Processing (project.ipynb)
 
 The notebook includes:
