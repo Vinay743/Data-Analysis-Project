@@ -41,26 +41,9 @@ Exporting cleaned data into SQLite database
 
 Preparing structured results for Power BI
 
-Preview of first notebook cells:
-
-import numpy as np
-import pandas as pd
-
-df = pd.read_csv("ICT_Subdimension_Dataset new.csv")
-df.head()
-df.info()
-
 🗄️ SQLite Database (New ICT.db)
 
 Contains structured tables created from the cleaned dataset.
-
-Example query:
-
-SELECT City, [Wireless Broadband Coverage 4G (%)]
-FROM ict_metrics
-ORDER BY [Wireless Broadband Coverage 4G (%)] DESC
-LIMIT 5;
-
 
 📊 Dashboard Overview
 
